@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kavita Bisht | Data Analyst Portfolio</title>
+  <meta name="description" content="Professional Data Analyst Portfolio for Kavita Bisht — Data Cleaning, EDA, SQL, Python, and Power BI." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="backdrop-glow"></div>
+  
+  <header class="topbar container">
+    <a class="brand" href="#" onclick="switchPage('home')">Kavita Bisht<span class="dot">.</span></a>
+    <nav class="nav">
+      <a href="#" id="nav-home" class="nav-link active" onclick="switchPage('home')">Home</a>
+      <a href="#" id="nav-projects" class="nav-link" onclick="switchPage('projects')">Projects</a>
+      <a href="#" id="nav-experience" class="nav-link" onclick="switchPage('experience')">Experience & Education</a>
+      <a href="#" id="nav-contact" class="nav-link" onclick="switchPage('contact')">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="page-home" class="page-section active">
+      <div class="hero-grid">
+        <div class="hero-copy panel">
+          <p class="eyebrow">Data Analyst</p>
+          <h1>Transforming raw data into <span class="gradient-text">actionable business strategies</span>.</h1>
+          <p class="lead">Data Analyst with hands-on expertise in Exploratory Data Analysis (EDA), Data Visualization, Statistical Analysis, and Business Intelligence using Python, SQL, Excel, and Power BI. Seamlessly bridging 8+ years of analytical problem-solving and stakeholder communication from education.</p>
+          <div class="actions">
+            <a class="btn primary" href="mailto:kavita.bisht0829@gmail.com">Email Me</a>
+            <a class="btn ghost" href="tel:+916397021704">Call: +91 63970 21704</a>
+            <a class="btn ghost" href="#" onclick="switchPage('contact')">Leave a Comment</a>
+          </div>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/kavita-bisht-17345b3a6" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/KavitaBishtDataScientist" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://medium.com/@kavita.bisht0829" target="_blank" rel="noreferrer">Medium</a>
+          </div>
+        </div>
+        <div class="hero-card panel">
+          <div class="visual-bg">
+            <img src="WhatsApp Image 2026-06-06 at 19.41.04.jpeg" alt="Kavita Bisht Portrait" class="portrait-img">
+          </div>
+          <div class="info">
+            <h2>Quick Profile</h2>
+            <p class="location">Haldwani, Uttarakhand, India</p>
+            <div class="divider"></div>
+            <h3>Core Tools</h3>
+            <div class="tags">
+              <span>Python</span><span>SQL</span><span>MS Excel</span><span>Power BI</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-block grid structural-cards">
+        <div class="panel card">
+          <div class="icon-indicator">📊</div>
+          <h3>Data Analytics</h3>
+          <p>Proficient in EDA, rigorous data cleaning, preprocessing, structural formatting, and statistical hypothesis testing to extract underlying truths.</p>
+        </div>
+        <div class="panel card">
+          <div class="icon-indicator">📈</div>
+          <h3>Business Intelligence</h3>
+          <p>Designing interactive dashboards and reports using Power BI and advanced visualization libraries to simplify corporate decision-making.</p>
+        </div>
+        <div class="panel card">
+          <div class="icon-indicator">💬</div>
+          <h3>Storytelling & Value</h3>
+          <p>8+ years of communication and presentation experience, converting complex data architectures into intuitive, insight-driven executive summaries.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="page-projects" class="page-section">
+      <div class="section-heading">
+        <h2>Analytics Portfolios</h2>
+        <p>Production-ready case studies utilizing programming, statistical models, and modern visualization techniques. Click any card to view the code repositories on GitHub.</p>
+      </div>
+      <div id="projectGrid" class="grid cards"></div>
+    </section>
+
+    <section id="page-experience" class="page-section">
+      <div class="experience-layout">
+        <div class="timeline-container">
+          <div class="section-heading">
+            <h2>Professional Track</h2>
+            <p>8+ years managing stakeholders, structuring complex frameworks, and presenting key insights.</p>
+          </div>
+          <div id="experienceList" class="timeline"></div>
+        </div>
+        
+        <div class="education-container">
+          <div class="section-heading">
+            <h2>Education & Credentials</h2>
+          </div>
+          <div id="educationList" class="education-grid"></div>
+          
+          <div class="panel card strings-card" style="margin-top: 20px;">
+            <h3>Key Strengths</h3>
+            <ul class="strengths-list">
+              <li>Strong Foundation in Exploratory Data Analysis (EDA) & Cleaning</li>
+              <li>Business-Oriented Problem Solving & Actionable Insight Mining</li>
+              <li>Data Visualization, Dashboard Engineering & Storytelling</li>
+              <li>Quick Learner with an Agile Growth Mindset</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="page-contact" class="page-section">
+      <div class="section-heading">
+        <h2>Get In Touch</h2>
+        <p>Let's talk numbers. Reach out directly or drop a line via the validated comment hub below.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="panel card identity-contact">
+          <h3>Direct Channels</h3>
+          <p class="contact-link-wrapper">
+            Email: <a href="mailto:kavita.bisht0829@gmail.com" class="highlight-link">kavita.bisht0829@gmail.com</a>
+          </p>
+          <p class="contact-link-wrapper">
+            Phone: <a href="tel:+916397021704" class="highlight-link">+91 63970 21704</a>
+          </p>
+          <div class="divider"></div>
+          <h3>Social Repositories</h3>
+          <p class="social-pills">
+            <a href="https://www.linkedin.com/in/kavita-bisht-17345b3a6" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/KavitaBishtDataScientist" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://medium.com/@kavita.bisht0829" target="_blank" rel="noreferrer">Medium</a>
+          </p>
+          <div class="divider"></div>
+          <p class="languages-tag"><strong>Languages Known:</strong> English (Proficient) • Hindi (Native)</p>
+        </div>
+        
+        <form class="panel card comment-form" id="portfolioForm">
+          <h3>Leave a Comment</h3>
+          <input type="text" id="form-name" placeholder="Your Name" required />
+          <input type="email" id="form-email" placeholder="Your Email Address" required />
+          <textarea id="form-message" placeholder="Write your message, review, or project feedback here..." required></textarea>
+          <button type="submit" class="btn primary">Submit Feedback</button>
+          <div id="form-status" class="hint">Your comment will securely log to the browser console as a static demonstration.</div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>&copy; 2026 Kavita Bisht. Handcrafted with precision, featuring a data science design matrix.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
